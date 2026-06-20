@@ -6,8 +6,8 @@ A small cartoon avatar (a Peanuts-style version of me) lives in a two-room apart
 
 ## What's inside
 
-- **Coding Lab** — internship logs, debugging stories, things that finally compiled, and ML fellowship notes
-- **Ceramics Studio** — glaze tests, wheel notes, and any other thoughts that didn't fit anywhere else
+- **Coding Lab**: internship logs, debugging stories, things that finally compiled, and ML fellowship notes
+- **Ceramics Studio**: glaze tests, wheel notes, and any other thoughts that didn't fit anywhere else
 
 ## How it works
 
@@ -40,4 +40,4 @@ Leave off `placeholder: true` once it's a real entry (that flag is just what sho
 ## Notes
 
 - The avatar is embedded directly in `app.js` as a base64 image, so there's no separate image file to keep track of.
-- This is a personal journal, not a portfolio — it's meant to be messy and in-progress.
+- This is a personal journal, not a portfolio. It's meant to be messy and in-progress :)
