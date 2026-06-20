@@ -2,7 +2,7 @@
 
 A personal journal site for documenting what I'm learning through software engineering internships and ML fellowships — with a side of ceramics.
 
-A small cartoon avatar (a Peanuts-style version of me) lives in a two-room apartment. Walk her between rooms, click in, and read what's there. No portfolio polish here on purpose — this is the working notebook, not the highlight reel.
+A small cartoon avatar (a Peanuts-style version of me) lives in a two-room apartment. Walk her between rooms, click in, and read what's there. This is a working notebook just for my own use, not a portfolio!
 
 ## What's inside
 
