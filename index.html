@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>the glaze &amp; the grind — a journal</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..700;1,9..144,400..600&family=Lora:ital,wght@0,400..600;1,400..500&family=JetBrains+Mono:wght@400..600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-head">
+  <div>
+    <h1 class="site-title">the glaze <span class="accent">&amp;</span> the grind</h1>
+    <p class="site-sub">a working journal of code shipped, models trained, and pots that didn't survive the kiln.</p>
+  </div>
+  <nav class="crumbs" id="crumbs">
+    <button type="button" data-nav="home" aria-current="true">home</button>
+  </nav>
+</header>
+
+<main>
+  <section id="apartment-view">
+    <p class="hint-row">walk her around with <kbd>&larr;</kbd> <kbd>&rarr;</kbd>, or click a room to step inside</p>
+
+    <div class="floorplan" id="floorplan">
+      <div class="room lab" id="room-lab" tabindex="0" role="button" aria-label="Enter the Coding Lab">
+        <div class="room-deco"></div>
+        <div class="room-label-row">
+          <span class="room-eyebrow">room 01</span>
+          <span class="room-count mono" id="lab-count">0 entries</span>
+        </div>
+        <h2>coding lab</h2>
+        <p class="room-desc">internship logs, debugging spirals, things that finally compiled.</p>
+        <span class="room-icon-deco">&lt;/&gt;</span>
+      </div>
+
+      <div class="room studio" id="room-studio" tabindex="0" role="button" aria-label="Enter the Ceramics Studio">
+        <div class="room-deco"></div>
+        <div class="room-label-row">
+          <span class="room-eyebrow">room 02</span>
+          <span class="room-count mono" id="studio-count">0 entries</span>
+        </div>
+        <h2>ceramics studio</h2>
+        <p class="room-desc">glaze tests, wheel notes, and the occasional ML fellowship thought.</p>
+        <span class="room-icon-deco">&#9676;</span>
+      </div>
+
+      <div id="char-layer">
+        <div id="char-wrap">
+          <div id="speech-bubble"></div>
+          <img id="char-sprite" src="" alt="A small cartoon avatar in a floral dress, standing in the room">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="room-view">
+    <button type="button" class="back-link" id="back-btn">&larr; back to the apartment</button>
+    <div class="room-banner" id="room-banner">
+      <h2 id="room-banner-title"></h2>
+      <p id="room-banner-desc"></p>
+    </div>
+    <div class="entry-list" id="entry-list"></div>
+  </section>
+</main>
+
+<footer class="site-foot">built by hand, like everything else here.</footer>
+
+<script src="data.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
