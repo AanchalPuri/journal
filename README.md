@@ -1,4 +1,4 @@
-# the glaze & the grind
+# the glaze & the grind🏺🌸
 
 A personal journal site for documenting what I'm learning through software engineering internships and ML fellowships — with a side of ceramics.
 
