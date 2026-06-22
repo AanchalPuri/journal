@@ -19,11 +19,15 @@ const ENTRIES = {
       placeholder: true
     },
     {
-      date: "Week 4",
+      date: "6/22/2026",
       tag: "learning",
-      title: "Today I understood what a hash map actually does",
-      body: "Use this slot for the 'oh, THAT'S why' moments — concepts that finally clicked mid-internship.",
-      placeholder: true
+      title: "Implementing a Logistic Regression Model",
+      body: `<p style="margin-bottom: 15px; line-height: 1.5;">
+               Here is the notebook from my ML fellowship session where I built a logistic regression model from scratch. 
+               I was surprised by how much I learned by implementing it myself, and how much more intuitive the math felt once I had the code to play with.
+             </p>
+             <iframe src="LogisticRegression.html" width="100%" height="800px" style="border:none;"></iframe>`,
+      placeholder: false
     }
   ],
   studio: [

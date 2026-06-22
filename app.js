@@ -129,7 +129,7 @@
       const h3 = document.createElement('h3');
       h3.textContent = entry.title;
       const p = document.createElement('p');
-      p.textContent = entry.body;
+      p.innerHTML = entry.body;
       card.appendChild(meta);
       card.appendChild(h3);
       card.appendChild(p);
