@@ -475,3 +475,26 @@
     overflow:hidden;
     clip:rect(0,0,0,0);
   }
+
+  .icons {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  margin-top: 28px;
+  }
+
+  .icons a {
+    text-decoration: none;
+  }
+
+  .icons a svg {
+    width: 36px;
+    height: 36px;
+    stroke: #5b1438;
+    transition: all 0.2s ease;
+  }
+
+  .icons a svg:hover {
+    stroke: #ff2e7e;
+    transform: scale(1.1);
+  }
