@@ -3,7 +3,10 @@
 // dashed "replace me" flag — remove that line once you've written the real entry.
 
 const ENTRIES = {
+  
+  
   lab: [
+    /*
     {
       date: "Week 1",
       tag: "onboarding",
@@ -18,6 +21,7 @@ const ENTRIES = {
       body: "Drop in the postmortem here. What did the stack trace lie about? What finally gave it away?",
       placeholder: true
     },
+    */
     {
       date: "6/22/2026",
       tag: "learning",
@@ -68,7 +72,7 @@ const DIALOGUE = {
     "click in and i'll show you what i've been building."
   ],
   studio: [
-    "the ceramics studio — also where my ML fellowship thoughts end up, oddly.",
+    "the ceramics studio! don't mind the chaos, it's part of the process.",
     "slower thinking happens in here.",
     "step in and see what's on the shelf."
   ]
