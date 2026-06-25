@@ -6,22 +6,20 @@ const ENTRIES = {
   
   
   lab: [
-    /*
     {
-      date: "Week 1",
+      date: "Jan 5–6",
       tag: "onboarding",
-      title: "First PR, terrifying and small",
-      body: "Replace this with the actual story — what the ticket was, what broke, what you learned about the codebase by breaking it.",
-      placeholder: true
+      title: "Git, forks, and learning to write a real commit message",
+      body: "Started the Sprinternship by setting up the basics — git vs. GitHub, forking, and the actual mechanics of commit → push → pull request. Learned the LIBITD-XXXX commit message format (short description, blank line, longer 2-3 line explanation, blank line, Jira ticket link). Also got introduced to Mermaid for drawing ERDs and started poking at Django and ETL concepts ahead of the real work."
     },
+
     {
-      date: "Week 2",
-      tag: "debugging",
-      title: "The bug that was actually a race condition",
-      body: "Drop in the postmortem here. What did the stack trace lie about? What finally gave it away?",
-      placeholder: true
+      date: "Jan 7–9",
+      tag: "django",
+      title: "Building the Note model, one ERD at a time",
+      body: "Sketched out the relationships between Note, Group, and User before writing a single line of model code — whiteboard first, Mermaid second. Wrote the ETL command to transform the old Rails CSV exports (groups, ip_ranges, relations) into a Django fixture JSON file. Learned that .gitignore, git rm --cached, and a good git status habit before doing anything risky will save you from yourself."
     },
-    */
+    
     {
       date: "6/22/2026",
       tag: "learning",
