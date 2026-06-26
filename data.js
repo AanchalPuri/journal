@@ -48,6 +48,27 @@ const ENTRIES = {
                I was surprised by how much I learned by implementing it myself, and how much more intuitive the math felt once I had the code to play with.
              </p>
              <iframe src="LogisticRegression.html" width="100%" height="800px" style="border:none;"></iframe>`,
+    },
+
+    {
+      date: "June 25 2026",
+      tag: "learning",
+      title: "Evaluating a model & out-of-sample testing",
+      body: `<p>Evaluating your model on test data is known as out-of-sample validation.</p>
+
+            <strong>out-of-sample validation: computing evaluation metrics on data that was not used in model training process</strong>
+            <p>Out of sample loss is how poorly or how well a model is performing on unseen data (basically how well is the model generalizing)</p>
+
+
+            Two Criteria for Model Selection: Identify a varied set of models and apply a good out of sample evaluation technique
+
+            <p>Model Design Dimensions:</p>
+            <ul>
+              <li><p>The algorithm: KNN, Decision Trees, Logistic Regression, etc.</p></li>
+              <li><p>The features</p></li>
+              <li><p>The hyperparameters (specific to the given algorithm)</p></li>
+            </ul>
+          `
     }
   ],
   studio: [
