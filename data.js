@@ -69,6 +69,12 @@ const ENTRIES = {
               <li><p>The hyperparameters (specific to the given algorithm)</p></li>
             </ul>
           `
+    },
+    {
+      date: "July 1 2026",
+      tag: "learning",
+      title: "Cross-Validation for KNN",
+      body: `<iframe src="CrossValidation.html" width="100%" height="800px" style="border:none;"></iframe>`
     }
   ],
   studio: [
