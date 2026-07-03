@@ -75,6 +75,12 @@ const ENTRIES = {
       tag: "learning",
       title: "Cross-Validation for KNN",
       body: `<iframe src="CrossValidation.html" width="100%" height="800px" style="border:none;"></iframe>`
+    },
+    {
+      date: "July 3 2026",
+      tag: "learning",
+      title: "Feature Selection Using Scikit-Learn",
+      body: `<iframe src="FeatureSelection.html" width="100%" height="800px" style="border:none;"></iframe>`
     }
   ],
   studio: [
