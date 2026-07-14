@@ -81,6 +81,12 @@ const ENTRIES = {
       tag: "learning",
       title: "Feature Selection Using Scikit-Learn",
       body: `<iframe src="FeatureSelection.html" width="100%" height="800px" style="border:none;"></iframe>`
+    },
+    {
+      date: "July 14, 2026",
+      tag: 'learning',
+      title: "Convulutional Neural Networks",
+      body: `<iframe src="ImplementCNN.html" width="100%" height="800px" style="border:none;"></iframe>`
     }
   ],
   studio: [
